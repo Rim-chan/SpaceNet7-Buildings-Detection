@@ -47,7 +47,7 @@ We are using the U-Net model because:
 
 Project Structure
 -----------------
-In this project there is:
+In this project you will find:
 
 * `requirements.txt <https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/requirements.txt>`__ it contains all the necessary libraries;
 * `scripts <https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/tree/main/scripts>`__ contains a modular code; 
