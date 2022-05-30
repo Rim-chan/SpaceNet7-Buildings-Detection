@@ -7,7 +7,7 @@ LiveEO ML intern challenge
 - `Introduction`_
 - `Experimental Setup`_
 - `UNet Model`_
-- `Scripts`_
+- `Project Structure`_
 - `Instructions for Model Development`_
 
 
@@ -45,13 +45,18 @@ We are using the U-Net model because:
 * It has been shown in various cases: `UNet <hhttps://arxiv.org/pdf/1706.06169.pdf>`__ , `DeepUnet <https://https://arxiv.org/pdf/1709.00201.pdf>`__ , `Deep Residual U-Net <https://arxiv.org/pdf/1711.10684.pdf>`__ , that the U-Net is a very capable network with high performance even for satellite imagery. 
 
 
-Scripts
--------
+Project Structure
+-----------------
+In this project there is:
 
+* `requirements.txt <https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/requirements.txt>`__ it contains all the necessary libraries;
+* `scripts <https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/tree/main/scripts>`__ contains a modular code; 
+* `trained_models <https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/tree/main/trained_models>`__ contains the best model based on the dice score and the last trained model;
+* `output_samples <https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/tree/main/output_samples>`__ contains some predictions and the corresponding ground truth images.
 
 
 Instructions for Model Development
-----------------
+----------------------------------
 
 This section provides instructions for the model development phase.
 
