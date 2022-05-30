@@ -67,14 +67,17 @@ The original data is hosted at:
 
 ``s3://spacenet-dataset/spacenet/SN7_buildings/``
 
-The following is an example of the images and masks in the SN7 dataset and after patchifying it:
 
-.. image:: https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/SN7_images_masks/SN7_sample.PNG
+.. figure:: https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/SN7_images_masks/SN7_sample.PNG
     :align: center
-    
- 
-.. image:: https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/SN7_images_masks/patchified%20samples.PNG
-  :align: center
+
+   An image and its corresponding mask sample from the SN7 dataset
+   
+.. figure:: https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/SN7_images_masks/patchified%20samples.PNG
+    :align: center
+
+   An image and its corresponding mask sample from the SN7 dataset
+
   
  
 **Prepare environment**
