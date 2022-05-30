@@ -92,13 +92,13 @@ The original data is hosted at:
 
 .. code:: python
 
-  !python ./SpaceNet7-Buildings-Detection/main.py --base_dir "../input/liveeo/LiveEO_ML_intern_challenge" --num_epochs 10 --exec_mode 'train'
+  !python ./SpaceNet7-Buildings-Detection/scripts/main.py --base_dir "../input/liveeo/LiveEO_ML_intern_challenge" --num_epochs 10 --exec_mode 'train'
 
 **Test segmentation model**
 
 .. code:: python
 
-  !python ./SpaceNet7-Buildings-Detection/main.py --base_dir "../input/liveeo/LiveEO_ML_intern_challenge" --exec_mode 'evaluate' --ckpt_path './last.ckpt'
+  !python ./SpaceNet7-Buildings-Detection/scripts/main.py --base_dir "../input/liveeo/LiveEO_ML_intern_challenge" --exec_mode 'evaluate' --ckpt_path './last.ckpt'
 
 
 
