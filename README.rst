@@ -71,12 +71,12 @@ The original data is hosted at:
 .. figure:: https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/SN7_images_masks/SN7_sample.PNG
     :align: center
 
-   An image and its corresponding mask sample from the SN7 dataset
+    Figure1: An image and its corresponding mask sample from the SN7 dataset
    
 .. figure:: https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/SN7_images_masks/patchified%20samples.PNG
     :align: center
 
-   An image and its corresponding mask sample from the SN7 dataset
+    Figure2: An image and its corresponding mask sample from the SN7 dataset
 
   
  
@@ -127,3 +127,10 @@ The original data is hosted at:
   ax[0].imshow(preds[3][0], cmap='gray') 
   ax[1].imshow(lbls[3][0], cmap='gray') 
 
+
+.. figure:: https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/SN7_images_masks/OUTPUT.PNG
+    :align: center
+.. figure:: https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/blob/main/SN7_images_masks/OUTPUT2.PNG
+    :align: center
+
+    Figure3: UNet predictions and its corresponding ground truth masks 
