@@ -17,7 +17,7 @@ This project studied building footprints detection in satellite imagery, a basel
 
 The goal of this Notebook is to develop a neural network based solution to detect buildings in the images provided to accelarate mapping. The analysis is based on a curated subset of the `SpaceNet7 <https://spacenet.ai/sn7-challenge/>`__ dataset. This dataset is hosted on AWS as a Public Dataset.  
 
-This dataset encapsulates the moderate resolution (4m/pixel) EO data, each with 4 channel data (red, green, blue and near-infrared) and a corresponding ground truth mask. We explore the above problem by extracting semantic maps of buildings in medium resolution EO images. Devising it as a supervised learning problem, the state of the art deep neural network architecture, namely, `UNet <https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28>`__, that is commonly used for the the task of semantic segmentation was designed, implemented and experimentally evaluated. 
+This dataset encapsulates the moderate resolution (4m/pixel) EO data, each with 4 channel data (red, green, blue and near-infrared) and a corresponding ground truth mask. We explore the above problem by extracting semantic maps of buildings in medium resolution EO images. Devising it as a supervised learning problem, the state of the art deep neural network architecture, namely, `UNet <https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28>`__, that is commonly used for the the task of semantic segmentation was designed, implemented and experimentally evaluated. Because the initial dataset is very small (56 images) we have used patch learning. We basically generated a larger dataset by extracting random crops from the original images. 
 
 The main tasks performed are:
 
