@@ -85,20 +85,20 @@ The original data is hosted at:
 .. code:: python
 
   # git clone source
-  !git clone https://Rim-chan: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@github.com/Rim-chan/LiveEO.git
+  !git clone https://Rim-chan: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@github.com/Rim-chan/SpaceNet7-Buildings-Detection.git
 
 
 **Train segmentation model**
 
 .. code:: python
 
-  !python ./LiveEO/main.py --base_dir "../input/liveeo/LiveEO_ML_intern_challenge" --num_epochs 10 --exec_mode 'train'
+  !python ./SpaceNet7-Buildings-Detection/main.py --base_dir "../input/liveeo/LiveEO_ML_intern_challenge" --num_epochs 10 --exec_mode 'train'
 
 **Test segmentation model**
 
 .. code:: python
 
-  !python ./LiveEO/main.py --base_dir "../input/liveeo/LiveEO_ML_intern_challenge" --exec_mode 'evaluate' --ckpt_path './last.ckpt'
+  !python ./SpaceNet7-Buildings-Detection/main.py --base_dir "../input/liveeo/LiveEO_ML_intern_challenge" --exec_mode 'evaluate' --ckpt_path './last.ckpt'
 
 
 
