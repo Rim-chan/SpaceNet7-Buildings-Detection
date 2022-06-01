@@ -111,6 +111,7 @@ class SpaceNet7(Dataset):
 
 class SpaceNet7DataModule(LightningDataModule):
     def __init__(self, args):
+        super().__init__()
         self.args  = args
         
     def setup(self, stage=None):
