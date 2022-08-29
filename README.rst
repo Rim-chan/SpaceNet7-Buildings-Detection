@@ -62,7 +62,7 @@ This section provides instructions for the model development phase.
 
 **Download SpaceNet7 data**
 
-This project assumes that you already have the satellite images and their corresponding masks. For privacy reasons the data used here are not public.
+The dataset (satellite images and their corresponding masks) used in this project is based on the SpaceNet7 dataset.
 The original data is hosted at:
 
 ``s3://spacenet-dataset/spacenet/SN7_buildings/``
