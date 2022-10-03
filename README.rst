@@ -1,5 +1,5 @@
 ======
-LiveEO ML intern challenge
+SpaceNet7 Buildings Detection
 ======
 
 **Content**
