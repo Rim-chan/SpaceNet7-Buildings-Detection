@@ -2,6 +2,11 @@
 SpaceNet7 Buildings Detection
 ======
 
+.. image:: https://img.shields.io/github/stars/Rim-chan/SpaceNet7-Buildings-Detection.svg?style=social
+   :alt: GitHub stars
+   :target: https://github.com/Rim-chan/SpaceNet7-Buildings-Detection/stargazers
+
+
 **Content**
 
 - `Introduction`_
